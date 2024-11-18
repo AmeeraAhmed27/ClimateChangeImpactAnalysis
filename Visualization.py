@@ -29,11 +29,11 @@ app.layout = html.Div(style={'padding': '20px'}, children=[
                       template='plotly_dark', color='CO2 Emissions', text='CO2 Emissions')
     ),
     
-    # Heat Map for CO2 Emissions
+    # Heat Map for Precipitation
     dcc.Graph(
         id='heatmap',
-        figure=px.density_heatmap(df, x='Location', y='Date', z='CO2 Emissions',
-                                   title='Heat Map of CO2 Emissions', 
+        figure=px.density_heatmap(df, x='Location', y='Date', z='Precipitation',
+                                   title='Heat Map of Precipitation', 
                                    template='plotly_dark', color_continuous_scale='Viridis')
     ),
 ])
