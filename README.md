@@ -17,7 +17,7 @@
 ## Features
 
 - **Temperature Line Graph**: Visualizes temperature changes over time.
-- **Sea Level Rise Heat Map**: Illustrates regions affected by rising sea levels.
+- **Precipitation Heat Map**: Illustrates regions affected by Precipitation.
 - **CO2 Emissions Bar Chart**: Compares CO2 emissions across different countries.
 - **Scatter Plot**: Displays the relationship between CO2 emissions and temperature.
 
@@ -76,7 +76,7 @@ pip install [Library_Name]
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
-   bash
+   ```sh
    git clone https://github.com/AmeeraAhmed27/ClimateChangeImpactAnalysis.git   
 
 2. **Install the required packages**:
