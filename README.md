@@ -391,6 +391,7 @@ Users can filter the data based on:
 <div>
   <img src="/Images/dashboard7.png" ></img>
 </div>
+
 ### 2. Scatter Plot Analysis
 
 This section allows users to create scatter plots to analyze relationships between different climate indicators(e.g., Temperature vs. CO2 Emissions),country and date range
